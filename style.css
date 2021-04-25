@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    font-family: raleway;
+    padding: 0;
+    margin: 0;
+}
+.title{
+    text-align: center;
+    color: white;
+    background-image: url(school.png);
+    padding: 15%;
+}
+
+.about{
+    background-color: black;
+    color: white;
+}
+
+.about img{
+    width: 15%;
+    margin-bottom: 5%;
+}
+
+.developers{
+    background-image: linear-gradient(to bottom, #000000, #171717, #2d2d2d);
+    color: white;
+}
+
+.developers h1{
+    text-align: center;
+}
+
+.developer{
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.developer p{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.levels{
+    background-image: linear-gradient(to bottom, #2d2d2d, #202020, #161616);
+    color: white;
+}
+
+.levels h1{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.level{
+    background-color: rgb(54, 54, 54);
+    margin-bottom: 4%;
+    margin-right: 70%;
+    border-radius: 5%;
+}
+
+.img_level{
+    width: 50%;
+}
+
+.level_last{
+    background-color: rgb(54, 54, 54);
+    margin-right: 70%;
+    border-radius: 5%;
+}
+
+.question_mark{
+    width: 20%;
+}
+
+.links{
+    background-image: linear-gradient(to bottom, #161616, #757575, white);
+    color: white;
+}
+
+.links h1{
+    text-align: center;
+}
+
+.link{
+    display: block;
+    color: rgb(75, 75, 255);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.download{
+    color: white;
+    background-color: #161616;
+}
+
+.download_link{
+    display: block;
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
+
+.download h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.news{
+    color: white;
+    background-color: #161616;
+}
+
+.news h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.news p{
+    padding-bottom: 4%;
+}
+
+.feedback{
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+@media(max-width: 2560px){
+    .about{
+        width:100%;
+    }
+
+    .title{
+        background-position-x: 65%;
+        background-position-y: center;
+        padding: 200px 0;
+        width: 100%;
+    }
+
+    .level{
+        display: block;
+        width: 60%;
+        margin-top: 5px;
+    }
+
+    .level_last{
+        display: block;
+        width: 60%;
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 1920px){
+    .about img{
+        width: 20%;
+    }
+
+    .title{
+        background-position-x: 65%;
+        background-position-y: center;
+        padding: 200px 0;
+    }
+
+    .level{
+        display: block;
+        width: 40%;
+        margin-top: 5px;
+    }
+
+    .level_last{
+        display: block;
+        width: 40%;
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 1536px){
+    .level img{
+        display: block;
+        width: 20%;
+        margin-top: 5px;
+    }
+
+    .question_mark{
+        width: 20%;
+    }
+}
+
+@media(max-width: 1280px){
+    .about img{
+        width: 20%;
+    }
+
+    .title{
+        background-position-x: 65%;
+        background-position-y: center;
+        padding: 150px 0;
+    }
+
+    .level{
+        display: block;
+        width: 40%;
+        margin-top: 5px;
+    }
+
+    .level_last{
+        display: block;
+        width: 40%;
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 1024px){
+    .about img{
+        width: 40%;
+    }
+
+    .title{
+        background-position-x: 65%;
+        background-position-y: center;
+        padding: 150px 0;
+    }
+
+    .level{
+        display: block;
+        width: 60%;
+        margin-top: 5px;
+    }
+
+    .level_last{
+        display: block;
+        width: 60%;
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 768px){
+    .about img{
+        width: 50%;
+    }
+
+    .title{
+        background-position-x: 65%;
+        background-position-y: center;
+        padding: 150px 0;
+    }
+
+    .level{
+        display: block;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .level_last{
+        display: block;
+        width: 80%;
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 375px){
+    .about img{
+        width: 80%;
+    }
+
+    .level{
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .level_last{
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .title{
+        background-position-x: 65%;
+        background-position-y: center;
+        padding: 150px 0;
+    }
+}
