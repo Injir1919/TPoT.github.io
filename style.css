@@ -42,6 +42,7 @@
 .menu a{
     text-decoration: none;
     color: white;
+    margin: 0 20px;
     padding: 15px 0;
     display: inline-block;
 }
